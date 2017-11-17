@@ -1,0 +1,18 @@
+import React from 'react';
+import selectExpensesTotal from '../../selectors/expenses-total';
+import expenses from '../fixtures/expenses';
+
+test('should return 0 if no expenses', () => {
+	const result = selectExpensesTotal([]);
+	expect(result).toBe(0);
+});
+
+test('should orrectly add up a single expense', () => {
+	const result = selectExpensesTotal([ expenses[1] ]);
+	expect(result).toBe(109500);
+});
+
+test('should correctly add up multiple expenses', () => {
+	const result = selectExpensesTotal(expenses);
+	expect(result).toBe(114195);	
+});

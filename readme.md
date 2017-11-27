@@ -1,7 +1,19 @@
-#Git Commands
+#React w/ Redux Expeses App [View on Heroku](https://react-expenses-app.herokuapp.com)
 
-git init - Create a new repo
-git status - View the changes to your project
-git add - Add files to staging area
-git commit - Creates a new commit with files from staging area
-git log - View recent commits
+##Production-ready web application built to track and monitor expenses
+
+###Technology used:
+Frontend:
+- React with Redux
+
+Backend:
+- Firebase
+
+Tests:
+- Jest
+- Enzyme
+
+Deployment:
+- Webpack
+- yarn
+- Heroku

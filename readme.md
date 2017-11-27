@@ -1,8 +1,8 @@
-#React w/ Redux Expeses App [View on Heroku](https://react-expenses-app.herokuapp.com)
+# React w/ Redux Expeses App [View on Heroku](https://react-expenses-app.herokuapp.com)
 
-##Production-ready web application built to track and monitor expenses
+## Production-ready web application built to track and monitor expenses
 
-###Technology used:
+### Technology used:
 Frontend:
 - React with Redux
 
